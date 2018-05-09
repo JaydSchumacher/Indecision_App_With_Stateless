@@ -1,4 +1,18 @@
-//Widget Header
+// Widget
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+.widget__message {
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+}
+
+// Widget Header
 .widget-header {
     background-color: $blue;
     color: $off-white;
@@ -10,3 +24,4 @@
 .widget-header__title {
     margin: 0;
 }
+
